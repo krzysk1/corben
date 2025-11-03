@@ -164,7 +164,7 @@
                 <[float64][RimRadius][0.08]>
                 <[float64][Inflation][200000.0]>
                 <[string8][InputBrake][LeftBrakeInput.Output]>
-                <[float64][BrakeStrength][0.15]>
+                <[float64][BrakeStrength][0.1]>
             >
             <[output][GroundRollSpeedLeft][]
                 <[string8][Input][LeftWheelHull.Speed]>
@@ -199,7 +199,7 @@
                 <[float64][RimRadius][0.08]>
                 <[float64][Inflation][200000.0]>
                 <[string8][InputBrake][RightBrakeInput.Output]>
-                <[float64][BrakeStrength][0.15]>
+                <[float64][BrakeStrength][0.1]>
             >
             <[output][GroundRollSpeedRight][]
                 <[string8][Input][RightWheelHull.Speed]>
@@ -213,7 +213,7 @@
                 <[float64][Mass][3.6]>
                 <[tmvector3d][InertiaLength][ 0.122 0.055 0.427 ]>
                 <[tmvector3d][R0][-3.615 0.000 -0.330]>
-                <[tmmatrix3d][B0][0.500000 0.0 -0.866025 0.0 1.0 0.0 0.866025 0.0 0.500000]>
+                <[tmmatrix3d][B0][0.5 0.0 -0.866025 0.0 1.0 0.0 0.866025 0.0 0.5]>
             >
             <[multibody_joint][JointFuselageTailGear][]
                 <[string8][Body0][Fuselage]>
@@ -237,12 +237,12 @@
                 <[float64][K][1186000.0]>
                 <[float64][D][17790.0]>
             >
-            <[collisionhull][CollisionTailGear][]
-                <[string8][Body][TailGear]>
-                <[string8][Geometry][Corben9t714614]>
-                <[float64][K][1186000.0]>
-                <[float64][D][17790.0]>
-            >
+            // <[collisionhull][CollisionTailGear][]
+                // <[string8][Body][TailGear]>
+                // <[string8][Geometry][Corben9t714614]>
+                // <[float64][K][1186000.0]>
+                // <[float64][D][17790.0]>
+            // >
 
             <[wheel][TailWheelHull][]
                 <[float64][K][14800.0]>
@@ -810,14 +810,14 @@
             <[rigidbody][PropellerBody][]
                 <[float64][Mass][13.4]>
                 <[tmvector3d][InertiaLength][ 0.2 1.83 0.2 ]>
-                <[tmvector3d][R0][1.325 0.000 0.000]>
+                <[tmvector3d][R0][1.325 0.0 0.0]>
                 <[tmmatrix3d][B0][1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0]>
             >
             <[multibody_joint][PropellerJoint][]
                 <[string8][Body0][Fuselage]>
                 <[string8][Body1][PropellerBody]>
                 <[tmvector3d][X0][1.0 0.0 0.0]>
-                <[tmvector3d][R0][1.325 0.000 0.000]>
+                <[tmvector3d][R0][1.325 0.0 0.0]>
                 <[float64][Kp][0.0]>
                 <[float64][Kd][0.0]>
                 <[uint32][Type][0]>
@@ -840,12 +840,12 @@
                 <[float64][AttachedCenterFlap][-0.12]>
             >
             <[propeller][Propeller][]
-                <[tmvector3d][R0][1.325 0.000 0.000]>
+                <[tmvector3d][R0][1.325 0.0 0.0]>
                 <[tmvector3d][X0][1.0 0.0 0.0]>
                 <[tmvector3d][Y0][0.0 1.0 0.0]>
                 <[tmvector3d][Z0][0.0 0.0 1.0]>
                 <[float64][Radius][0.914]>
-                <[float64][Pitch][1.52000]>
+                <[float64][Pitch][1.52]>
                 <[float64][CutOut][0.2]>
                 <[float64][LateralDragCoefficient][0.0]>
                 <[string8][Airfoil][AirfoilPropeller]>
@@ -883,7 +883,7 @@
                 <[float64][InputTemperature] [EngineHousing.Output]>
                 <[float64][AddHeat]          [EngineHousing.AddHeat]>
                 <[float64][RotationInertia][2.0]>
-                <[float64][ThrottleIdle][0.2]>
+                <[float64][ThrottleIdle][0.15]>
                 <[float64][Friction][50.0]>
                 <[float64][RatedRotationSpeed][230.0]>
                 <[float64][RatedPower][48470]>
@@ -1224,7 +1224,7 @@
 
 			// Fuselage
             <[rigidbodygraphics][Fuselage][]
-                <[string8][GeometryList][ Corben5t10 Glasst18 Glasst18Exterior Corben3t608 Corben4t9 Corben8t13 Prop120 Corben1t6 Corben6t579011 Corben6t588611 Corben9t14 Corben9t10814 Corben9t21614 Corben9t32414 ]>
+                <[string8][GeometryList][ Corben5t10 Glasst18 GaugeGlass Glasst18Exterior Corben3t608 Corben4t9 Corben8t13 Prop120 Corben1t6 Corben6t579011 Corben6t588611 Corben9t14 Corben9t10814 Corben9t21614 Corben9t32414 ]>
                 <[uint32][PositionID][Fuselage.R]>
                 <[uint32][OrientationID][Fuselage.Q]>
             >

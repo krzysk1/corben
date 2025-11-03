@@ -1,15 +1,15 @@
 <[file][][]
     <[modelmanager][][]
         <[pointer_list_tmgraphics][DynamicObjects][]
-		
+
             <[wheel][LeftWheelHull][]
                 <[float64][K][52000.0]>
                 <[float64][D][390.0]>
                 <[float64][Radius][0.356]>
                 <[float64][Width][0.328]>
                 <[float64][RimRadius][0.08]>
-                <[float64][Inflation][244666.7]>
-                <[float64][BrakeStrength][0.69]>
+                <[float64][Inflation][144666.7]>
+                <[float64][BrakeStrength][0.02]>
             >
             <[wheel][RightWheelHull][]
                 <[float64][K][52000.0]>
@@ -17,13 +17,12 @@
                 <[float64][Radius][0.356]>
                 <[float64][Width][0.328]>
                 <[float64][RimRadius][0.08]>
-                <[float64][Inflation][244666.7]>
-                <[string8][InputBrake][RightBrakeInput.Output]>
-                <[float64][BrakeStrength][0.69]>
+                <[float64][Inflation][144666.7]>
+                <[float64][BrakeStrength][0.02]>
             >
         >
         <[pointer_list_tmgraphics][GraphicObjects][]
-		
+
             <[graphics_wheel][LeftWheel][]
                 <[string8][GeometryList][ Corben3t881288 Corben2t178207 ]>
                 <[float64][Radius][0.356]>
