@@ -1,4 +1,4 @@
-# babyace
+# corben
  Corben Baby Ace for Aerofly FS4
 
 This is free add-on for Aerofly FS4 created by Krzysztof Kaniewski with the Aerofly FS4 SDK, 3D model by FTLX Designs.
@@ -8,13 +8,13 @@ Use it at your own risk!
 
 # Installation
 
-1. Unzip file and move the folder "babyace" into the C:\Users\~\Documents\Aerofly FS 4\aircraft folder.
+1. Unzip file and move the folder "corben" into the C:\Users\~\Documents\Aerofly FS 4\aircraft folder.
 
-2. Copy all *.tsb files from "jungmeister" folder from your Aerofly FS4 installation path into "babyace\sounds\" folder.
+2. Copy all *.tsb files from "jungmeister" folder from your Aerofly FS4 installation path into "corben\sounds\" folder.
 
 # Uninstall
 
-1. Delete the folder "babyace".
+1. Delete the folder "corben".
 
 # Resources
 
