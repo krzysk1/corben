@@ -1395,7 +1395,7 @@
             >
             <[graphics_linear_interpolation][PressureSettingMapping][]
                 <[string8][Input][PressureSetting.Output]>
-                <[tmvector2d][Map][(27.900000 -3.298673)(29.920000 0.0)(31.5 2.600541)]>
+                <[tmvector2d][Map][(93200 -3.298673)(100000 0.0)(105300 2.600541)]>
             >
             <[hingedbodygraphics][AltimeterPressure][]
                 <[string8][GeometryList][ Altimeterag13861 ]>

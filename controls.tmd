@@ -10,9 +10,9 @@
                 <[vector3_float64][Direction][ 1.0 0.0 0.0 ]>
                 <[float64][StepAngle][0.1]>
                 <[control_message][OnRotate][]
-                    <[string8][Message][PressureSetting]>
+                    <[string8][Message][Controls.PressureSetting0]>
                     <[string8][Qualifiers][step]>
-                    <[float64][Value][1.0]>
+                    <[float64][Value][0.2]>
                 >
                 <[float64][Radius][0.009]>
                 <[float64][Length][0.01]>
