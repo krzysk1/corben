@@ -20,11 +20,11 @@
             >
             <[input_switch][RightMagneto][]
                 <[float64][Value][1.0]>
-            >			
+            >
             <[input_switch][FuelSelectorInput][]
                 <[float64][Value][1.0]>
             >
-			
+
             // trim
             <[input_default][PitchTrim][]
                 <[float64][Value][-0.8]>

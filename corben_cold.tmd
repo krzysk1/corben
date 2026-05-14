@@ -16,10 +16,10 @@
             >
             <[input_switch][RightMagneto][]
                 <[float64][Value][0.0]>
-            >			
+            >
             <[input_switch][FuelSelectorInput][]
                 <[float64][Value][0.0]>
-            >	
+            >
         >
     >
 >

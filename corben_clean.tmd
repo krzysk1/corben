@@ -20,7 +20,7 @@
             >
             <[input_switch][RightMagneto][]
                 <[float64][Value][1.0]>
-            >	
+            >
 
             // trim
             <[input_default][PitchTrim][]

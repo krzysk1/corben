@@ -1,6 +1,6 @@
 <[file][][]
     <[modelinformation][][]
-        <[int32][Version][220]>
+        <[int32][Version][230]>
         <[list_vector4_float64][ContactSpheres][ (0.353 0.721 -1.121 0.215) (0.353 -0.721 -1.121 0.215) (-3.775 0.000 -0.499 0.061) ]>
         <[stringt8c][ICAO][BACE]>
         <[string8][DisplayName][Corben Baby Ace]>
@@ -17,35 +17,57 @@
             <[localized_text][element][2]
                 <[string8u][Language][fr]>
                 <[string8][Text][L'Ace Baby Ace a été le premier avion au monde à être commercialisé comme avion de construction amateur lorsque ses plans ont été mis en vente en 1929. Les plans sont toujours disponibles et des Baby Ace sont encore construits aujourd'hui. Orland Corben a conçu une série d'avions pour la société Ace Aircraft Manufacturing Company, les Baby Ace, Junior Ace et Super Ace. Le nom de Corben était associé à cet avion, communément appelé Corben Baby Ace. Réalisé par Krzysztof Kaniewski. Modèle 3D : FTLX Designs.]>
-			>
+            >
             <[localized_text][element][3]
                 <[string8u][Language][es]>
                 <[string8][Text][El Ace Baby Ace fue el primer avión del mundo que se comercializó como avión de construcción casera cuando sus planos se pusieron a la venta en 1929. Los planos siguen estando disponibles y los Baby Ace se siguen fabricando en la actualidad. Orland Corben diseñó una serie de aviones para la Ace Aircraft Manufacturing Company: el Baby Ace, el Junior Ace y el Super Ace. El nombre de Corben se asoció al avión, que se conoce comúnmente como Corben Baby Ace. Fabricado por Krzysztof Kaniewski. Modelo 3D: FTLX Designs.]>
-			>
+            >
             <[localized_text][element][4]
                 <[string8u][Language][it]>
                 <[string8][Text][L'Ace Baby Ace è stato il primo velivolo al mondo ad essere commercializzato come velivolo autocostruito quando i suoi progetti furono messi in vendita nel 1929. I progetti sono ancora disponibili e i Baby Ace vengono costruiti ancora oggi. Orland Corben progettò una serie di velivoli per la Ace Aircraft Manufacturing Company: il Baby Ace, il Junior Ace e il Super Ace. Il nome di Corben era associato al velivolo, comunemente noto come Corben Baby Ace. Realizzato da Krzysztof Kaniewski. Modello 3D: FTLX Designs.]>
-			>
+            >
             <[localized_text][element][5]
                 <[string8u][Language][pl]>
                 <[string8][Text][Baby Ace był pierwszym na świecie samolotem, który został wprowadzony do sprzedaży w 1929 roku. Plany są nadal dostępne, a Baby Ace są budowane do dziś. Orland Corben zaprojektował serię samolotów dla Ace Aircraft Manufacturing Company, Baby Ace, Junior Ace i Super Ace. Nazwisko Corbena było związane z tym samolotem i jest on powszechnie znany jako Corben Baby Ace. Wykonany przez Krzysztofa Kaniewskiego. Model 3D: FTLX Designs.]>
-			>
+            >
         >
-        <[float64][MaximumTakeoffMass][430.9]>
-        <[float64][WingSpan]          [8.1]>
-        <[uint32] [Year]              [1929]>
-        <[uint32] [UnitsBuilt]        [6884]>
-        <[uint32] [EngineCount]       [1]>
-        <[float64][EnginePower]       [48470]>
-        <[float64][MinimumAirspeed]   [17.0]>
-        <[float64][ApproachAirspeed]  [22.1]>
-        <[float64][CruiseAirspeed]    [56.3]>
-        <[float64][CruiseAltitude]    [3352.8]>
-        <[float64][CruiseSpeed]       [59.4]>
-        <[float64][MaximumAirspeed]   [62.5]>
-        <[float64][MaximumAltitude]   [6306.0]>
-        <[float64][MaximumSpeed]      [62.5]>
-        <[float64][MaximumRange]      [2276000.0]>
+        <[float64][MaximumTaxiMass]      [431.0]>
+        <[float64][MaximumTakeoffMass]   [431.0]>
+        <[float64][MaximumLandingMass]   [431.0]>
+        <[float64][MaximumZeroFuelMass]  [431.0]>
+        <[float64][OperatingEmptyMass]   [261.0]>
+        <[float64][MaximumFuelMass]      [36.4]> // Fuel capacity: 36.4 L (9.6 US gal; 8.0 imp gal); alternatively reported as: 66 L (17 US gal; 15 imp gal)
+        <[float64][MaximumPayload]       [100.0]>
+        <[uint32] [MaximumPersonsOnBoard][1]>
+        <[float64][WingSpan]             [8.08]>
+        <[float64][WingArea]             [10.43]>
+        <[float64][Length]               [5.46]>
+        <[float64][Height]               [2.03]>
+        <[float64][NoseWheelPosition]    [0.353]>
+        <[float64][MainGearWidth]        [1.442]>
+        <[uint32] [Year]                 [1929]>
+        <[uint32] [UnitsBuilt]           [6884]>
+        <[uint32] [EngineCount]          [1]>
+        <[float64][EnginePower]          [48470]> //  65–85 hp (48–63 kW)
+        <[float64][MinimumAirspeed]      [17.0]> // Stall speed: 35 mph (56 km/h, 30 kn)
+        <[float64][ApproachAirspeed]     [22.1]>
+        <[float64][CruiseAirspeed]       [56.3]> // Cruise speed: 100 mph (160 km/h, 87 kn) to 105 mph (91 kn; 169 km/h) max.
+        <[float64][CruiseAltitude]       [3352.8]>
+        <[float64][CruiseSpeed]          [59.4]>
+        <[float64][MaximumAirspeed]      [62.5]>
+        <[float64][MaximumAltitude]      [6306.0]> // Service ceiling: 16,000 ft (4,900 m)
+        <[float64][MaximumSpeed]         [62.5]> // Maximum speed: 110 mph (180 km/h, 96 kn) at sea level (65 hp (48 kW) engine at max. T-O weight
+        <[float64][MaximumRange]         [560000.0]> // Range: 350 mi (560 km, 300 nmi)
+        <[float64][MaximumLoadRange]     [560000.0]>
+        <[float64][MaximumFuelRange]     [560000.0]>
+        <[float64][MaximumFerryRange]    [560000.0]>
+        <[float64][MaximumGlideRatio]    [15.0]>
+        <[float64][TakeoffDistance]      [60.0]> // Take-off run: 200 ft (60 m)
+        <[float64][LandingDistance]      [80.0]> // Landing run: 250 ft (80 m)
+        <[float64][FuelDensity]          [780.0]>
+        <[float64][MACLeadingEdge]       [0.479]>
+        <[float64][MACLength]            [1.372]>
+        <[float64][MACOptimumCG]         [0.25]>
         <[vector2_float64][FlapAirspeedRange]   [  0.0  0.0 ]>
         <[vector2_float64][NormalAirspeedRange] [ 17.0 52.5 ]>
         <[vector2_float64][CautionAirspeedRange][ 52.5 62.5 ]>

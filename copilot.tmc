@@ -1,9 +1,12 @@
 <[file][][]
     <[hints][][]
-        // Tundra version
-        <[float64][MaximumTakeOffMass][430.9]>
+        // Corben Baby Ace
+        <[float64][MaximumTakeoffMass][431.0]>
+        <[float64][DefaultGrossMass][430.9]>
         <[float64][WingSpan][8.08]>
-        <[float64][WingArea][11.73]>
+        <[float64][WingArea][10.43]>
+        <[float64][LEMAC][0.479]>
+        <[float64][MAC][1.372]>
         <[float64][HeightOffset][-1.446]>
         <[float64][ApproachSpeed][20.1]>
         <[float64][PatternSpeed][40.0]>
@@ -14,7 +17,7 @@
         <[bool][TailDragger][true]>
         <[bool][ParkingBrake][true]>
         <[bool][RudderTrimRequired][true]>
-        <[float64][PitchTrimTakeOff][-0.02]>
+        <[float64][PitchTrimTakeoff][-0.02]>
         <[float64][RudderSteeringGain][0.5]>
         <[float64][RudderCrossWind][0.8]>
         <[float64][AileronGain][0.4]>
