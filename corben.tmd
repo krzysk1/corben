@@ -254,10 +254,10 @@
                 <[tmvector3d][R0][-3.775 0.000 -0.499]>
                 <[tmvector3d][X0][ 1.000 0.000 0.0 ]>
             >
-            <[output][GroundRollSpeedTailWheel][]
+            <[output][GroundRollSpeedTail][]
                 <[string8][Input][TailWheelHull.Speed]>
             >
-            <[output][GroundRollLoadTailWheel][]
+            <[output][GroundRollLoadTail][]
                 <[string8][Input][TailWheelHull.Load]>
             >
 
@@ -1237,7 +1237,7 @@
                 <[float64][Scaling][1.0000]>
             >
             <[graphics_input][Tire_vertical_deflection_mtr_2_Input][]
-                <[uint32][InputID][GroundRollLoad.Output]> //sim/flightmodel2/gear/tire_vertical_deflection_mtr[2]
+                <[uint32][InputID][GroundRollLoadRight.Output]> //sim/flightmodel2/gear/tire_vertical_deflection_mtr[2]
                 <[float64][Scaling][1.0000]>
             >
 

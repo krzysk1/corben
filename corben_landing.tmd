@@ -9,7 +9,7 @@
             <[servolinear][ServoThrottle][]
                 <[float64][Position][0.11]>
             >
-            <[multibody_joint][DriveShaft][]
+            <[jointtorque][DriveShaft][]
                 <[float64][Velocity][100.0]>
             >
             <[input_lever][MixtureLever][]

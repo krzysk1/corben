@@ -6,10 +6,10 @@
             <[input_lever][ThrottleInput][]
                 <[float64][Value][0.46]>
             >
-            <[servoclassic][ThrottleLever][]
+            <[servolinear][ServoThrottle][]
                 <[float64][Position][0.46]>
             >
-            <[multibody_joint][DriveShaft][]
+            <[jointtorque][DriveShaft][]
                 <[float64][Velocity][116.0]>
             >
             <[input_lever][MixtureLever][]

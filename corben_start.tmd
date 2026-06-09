@@ -2,7 +2,7 @@
     <[modelmanager][][]
         <[pointer_list_tmuniverse][DynamicObjects][]
 
-            <[multibody_joint][DriveShaft][]
+            <[jointtorque][DriveShaft][]
                 <[float64][Velocity][0.0]>
             >
             <[input_lever][ThrottleInput][]
